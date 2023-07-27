@@ -35,7 +35,8 @@ if (screen.width >= 768) {
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
 			//apiPath: "https://live2d.fghrsh.net/api/",
-			cdnPath: "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/",
+			apiPath: "https://api.zsq.im/live2d/",
+			// cdnPath: "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/",
 			tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
 		});
 	});
@@ -44,13 +45,13 @@ if (screen.width >= 768) {
 console.log(`
   く__,.ヘヽ.        /  ,ー､ 〉
            ＼ ', !-─‐-i  /  /´
-           ／｀ｰ'       L/／｀ヽ､
+           ／｀ｰ'  王     L/／｀ヽ､
          /   ／,   /|   ,   ,       ',
        ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
         ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
-          !,/7 '0'     ´0iソ|    |
+          !,/7 '0'  小   ´0iソ|    |
           |.从"    _     ,,,, / |./    |
-          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+          ﾚ'| i＞.､,,_白_ _,.イ /   .i   |
             ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
               | |/i 〈|/   i  ,.ﾍ |  i  |
              .|/ /  ｉ：    ﾍ!    ＼  |
